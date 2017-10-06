@@ -1,0 +1,27 @@
+{
+  "author" : "Mike Mariano",
+  "commands" : [
+    {
+      "script" : "cleardocpalette.js",
+      "handler" : "onRun",
+      "shortcut" : "ctrl shift d",
+      "name" : "Clear Document Color Palette",
+      "identifier" : "cleardocpalette",
+    },
+  ],
+  "menu" : {
+    "title" : "Clear Document Color Palette",
+    "isRoot" : true,
+    "items" : [
+      "cleardocpalette",
+    ],
+  },
+  "identifier" : "com.uiuxartist.sketch-cleardocpalette",
+  "description": "Clears the color palette in your Sketch document.",
+  "authorEmail" : "mike@uiuxartist.com",
+  "name" : "Clear Document Color Palette",
+  "homepage": "http://uiuxartist.com",
+  "version": "1.0",
+  "compatibleVersion": 3.5,
+  "bundleVersion": 1
+}
